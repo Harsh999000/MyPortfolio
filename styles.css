@@ -105,3 +105,8 @@ footer {
 #toggle-theme:hover {
     color: #f4f4f4;
 }
+
+.thumbs-up-img {
+    max-width: 150px;
+    margin-top: 20px;
+}
