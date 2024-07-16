@@ -106,7 +106,25 @@ footer {
     color: #f4f4f4;
 }
 
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('images/Home Page Thumbs Up.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.text-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin-right: 20px;
+}
+
 .thumbs-up-img {
-    max-width: 150px;
-    margin-top: 20px;
+    display: none; /* Hides the image since it's used as background */
 }
