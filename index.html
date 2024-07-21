@@ -3,53 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Harsh</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Harsh's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <nav>
-            <ul class="nav-list">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#github">GitHub</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#" id="toggle-theme"><i class="fas fa-moon"></i></a></li>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="github.html">GitHub</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <section id="about" class="section">
-            <div class="about-container">
-                <div class="text-box">
-                    <p>Hi, I am Harsh! <br> I enjoy coding and creating interactive applications. I am passionate about learning new technologies and improving my skills.</p>
-                </div>
+        <section id="intro">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I am Harsh!
+                I enjoy coding and creating interactive applications. I am passionate about learning new technologies and improving my skills.</p>
+        </section>
+
+        <section id="project-highlights">
+            <h2>Project Highlights</h2>
+            <div class="project-list">
+                <a href="https://example.com/project1" target="_blank">Project 1</a>
+                <a href="https://example.com/project2" target="_blank">Project 2</a>
+            </div>
+            <div class="project-slider">
+                <img src="img/project1-1.png" alt="Project 1 Screenshot">
+                <img src="img/project1-2.png" alt="Project 1 Screenshot">
+                <!-- Add more images here -->
             </div>
         </section>
-        <section id="projects" class="section">
-            <h2>Projects</h2>
-            <ul class="projects-list">
-                <li><a href="https://harsh999000.github.io/MyPortfolio/#" target="_blank">My Portfolio</a></li>
-                <li><a href="https://harsh999000.github.io/Sorting-Algorithm-Website/#" target="_blank">Sorting Algorithm Visualizer</a></li>
-            </ul>
-        </section>
-        <section id="github" class="section">
-            <h2>GitHub</h2>
-            <ul class="github-list">
-                <li><a href="https://github.com/Harsh999000" target="_blank"><i class="fab fa-github"></i> GitHub Profile</a></li>
-            </ul>
-        </section>
-        <section id="contact" class="section">
-            <h2>Contact</h2>
+
+        <section id="github-highlights">
+            <h2>GitHub Highlights</h2>
             <ul>
-                <li>You can reach me at <a href="mailto:jhaharsh101@gmail.com">jhaharsh101@gmail.com</a></li>
+                <li><a href="https://github.com/jhaharsh101/repo1" target="_blank">Repo 1</a></li>
+                <li><a href="https://github.com/jhaharsh101/repo2" target="_blank">Repo 2</a></li>
             </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:jhaharsh101@gmail.com">jhaharsh101@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/jhaharsh101" target="_blank">jhaharsh101@linkedin.com</a></p>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2024 Harsh's Portfolio. All rights reserved.</p>
+        <p>&copy; 2024 Harsh</p>
     </footer>
-    <script src="scripts.js"></script>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
